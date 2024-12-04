@@ -1,0 +1,71 @@
+/* Estilo para agendamento.html */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff0000; /* Vermelho */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 5px solid #333; /* Preto */
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ff0000; /* Vermelho */
+}
+
+input, select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ff0000; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000; /* Vermelho mais escuro */
+}
+
+footer {
+    background-color: #333; /* Preto */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-top: 5px solid #ff0000; /* Vermelho */
+    bottom: 0;
+    width: 100%;
+}
